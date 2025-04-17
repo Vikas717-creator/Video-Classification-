@@ -32,31 +32,20 @@ A deep learning project for **classifying videos** by extracting temporal and sp
 1. Clone the repository:
 git clone https://github.com/Vikas717-creator/video-classification.git cd video-classification
 
-markdown
-Copy
-Edit
 
 2. Install required packages:
 pip install -r requirements.txt
 
-csharp
-Copy
-Edit
 
 3. Extract frames from videos:
 python frame_extractor.py
 store in .npy file
 features saved in csv file
-markdown
-Copy
-Edit
+
 
 5. Train the model:
 python train.py
 
-yaml
-Copy
-Edit
 
 ---
 
